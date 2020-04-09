@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--обязательно присутствия атрибута action он нужен для того что бы указывать адрес(путь) отправки form
+    method "GET" или "POST" - тоже обязателен
+ -->
+    <form action="" method="">
+        <input type="text" name="namePerson" maxlength="12" placeholder="Костя">
+        <input type="text" name="namePerson" maxlength="16" placeholder="Васильков"><br>
+        <input type="password" name="pass" maxlength="32"><br>
+
+        <label for ="1">Яблоко</label> <input id="1" type="checkbox" name="12" value="apple">
+        <label for ="2">Слива</label> <input id="2" type="checkbox" name="12" value="sliva">
+        <label for ="3">Груша</label> <input id="3" type="checkbox" name="12" value="grysha">
+        <label for ="4">Гранат</label> <input id="4" type="checkbox" name="12" value="granat"><br>
+
+         Арбуз<input type="radio" name="11">
+       Ананас <input type="radio" name="11">
+        Киви<input type="radio" name="11">
+       Манго <input type="radio" name="11"><br>
+
+        <textarea name="text" cols="10" rows="3" placeholder="Здесь какойто текст"></textarea><br>
+        <select name="101" size="2" multiple>K
+            <option>51</option>
+            <option selected>52</option><!--установка приоритета -->
+            <option value="Js">53</option><!--на сервес пойдет именно значение JS-->
+            <option>54</option>
+        </select>
+
+        <input type="reset" name="">
+        <input type="submit" name="submit" value="Кнопка Input">
+        <button type="submit"> Кнопка Button</button>
+    </form>
+</body>
+</html>
