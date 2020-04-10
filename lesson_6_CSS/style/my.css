@@ -1,0 +1,63 @@
+p{
+    background: aqua;
+    font-size: 21px;
+    width: auto;
+    height: 23px;
+    text-transform: revert;
+    text-align: center;
+    color: blue;
+}
+h1{
+    background: aqua;
+    font-size: 21px;
+    width: auto;
+    height: 23px;
+    text-transform: revert;
+    text-align: center;
+    color: blue;
+}
+h2{
+    background: aqua;
+    font-size: 21px;
+    width: auto;
+    height: 23px;
+    text-transform: revert;
+    text-align: center;
+    color: blue;
+}
+/*#one {
+    background: aqua;
+    font-size: 21px;
+    width: auto;
+    height: 23px;
+    text-transform: revert;
+    text-align: center;
+    color: blue;
+}*/
+.12{
+    background: aqua;
+    font-size: 21px;
+    width: auto;
+    height: 23px;
+    text-transform: revert;
+    text-align: center;
+    color: blue;
+}
+.H1{
+    background: aqua;
+    font-size: 21px;
+    width: auto;
+    height: 23px;
+    text-transform: revert;
+    text-align: center;
+    color: blue;
+}
+.H2{
+    background: aqua;
+    font-size: 21px;
+    width: border-box;
+    height: 12px;
+    text-transform: unset;
+    text-align: right;
+    color: darkred;
+}
