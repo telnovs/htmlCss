@@ -1,0 +1,42 @@
+a:hover{
+    color: darkred;
+}
+a:active{
+    font-size:20px;
+}
+a:link {
+    color:blue;
+}
+a:visited{
+    font-size:10px;
+}
+p:first-letter{
+    font-size:30px;
+    color: darkorchid;
+}
+p:first-line{
+    font-weight:bold;
+}
+input:focus{
+    border-color: darkorchid ;
+}
+.test:before{
+content: "Ураа!!!";
+}
+.test:after{
+    content: "Rjytw!!!";
+    color: darkred;
+}
+::selection{
+    color: white;
+    background: black;
+}
+img{
+    width: 150px;
+}
+img[title="job"]{
+    width: 70px;
+}
+a[href="https://learn.javascript.ru/"]{
+    color: crimson;
+}
