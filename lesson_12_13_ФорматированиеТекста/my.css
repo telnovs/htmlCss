@@ -1,0 +1,26 @@
+body{
+    padding: 20px;
+}
+h1{
+    text-shadow: -3px 5px 2px #999999;
+    text-align: center;
+    font-family:Helvetica, Arial,Verdana;/* шрифты без засечек*/
+}
+p{
+    line-height: 150%;
+    border: 1px solid #987;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+h2:first-letter{
+    font-size: 40px;
+    font-width:bold ;
+    background: #000000;
+    color: #fff;
+    padding: 4px;
+}
+ol{
+    list-style-type: disc;
+    list-style-position: inherit;
+    border: 1px solid #987;
+}
