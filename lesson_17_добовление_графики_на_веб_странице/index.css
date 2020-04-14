@@ -1,0 +1,11 @@
+body{
+    padding: 20px;
+    background: url("unnamed.jpg") center center / 40% no-repeat fixed #ff5;
+    /*background-repeat:repeat-x;*/
+    /*background-position: right top;*/
+    /*background-repeat:no-repeat ;*/
+    /*background-attachment: fixed;*/
+    /*background-origin: border-box;*/
+    /*background-image: url("unnamed.jpg") ;*/
+
+}
