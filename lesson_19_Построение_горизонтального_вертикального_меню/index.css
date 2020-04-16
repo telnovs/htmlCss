@@ -67,3 +67,24 @@ a.button:hover{
     color: #f33;
     border-radius: 3px;
 }
+.wrap{
+    position: relative;
+}
+.wrap-scroll{
+    margin-left: 100px;
+    width: 300px;
+    overflow: auto;
+}
+table{
+    width: 500px;
+}
+table td{
+    width: 100px;
+    border: 1px solid #ccc;
+}
+table tr td:first-child{
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    z-index: 100;
+}
