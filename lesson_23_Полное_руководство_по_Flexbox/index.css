@@ -1,0 +1,16 @@
+div{
+display: flex;
+border: 1px solid #212321;
+padding: 12px;
+
+}
+.test11{
+ flex:1;
+}
+.test22{
+flex:2;
+}
+.test33{
+ flex:1;
+}
+.
