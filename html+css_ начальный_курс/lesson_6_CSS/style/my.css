@@ -25,9 +25,8 @@ h2{
     font-size: 21px;
     width: auto;
     height: 23px;
-
 }
-.12{
+.gred12{
     background: darkorchid;
     font-size:10px;
     width: auto;
@@ -35,7 +34,7 @@ h2{
     text-align: center;
     color: blue;
 }
-.H1{
+.bro1{
     background: aqua;
     font-size: 21px;
     width: auto;
@@ -44,7 +43,7 @@ h2{
     text-align: center;
     color: blue;
 }
-.H2{
+.bro2{
     background: aqua;
     font-size: 21px;
     width: border-box;
