@@ -1,0 +1,51 @@
+/*em{Для большенства других свойств} - берет данные от своего родителя*/
+/*     rem{Для размера шрифта } -берет данныет от корневого илемента (html){ }*/
+/*px{ используеться для границ, отступы}
+vh- 1/100 высоты области экрана
+vw- 1/100 ширины экрана
+vmin -1/100 наименьших высоты или шириры
+vmax - 1/100 наименьших высоты или шириры
+*/
+
+:root {
+    font-size: calc(0.5em + 1vw);
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.panel {
+    font-size: 1rem;
+    padding: 1em;
+    border: 1px solid #999;
+    border-radius: 0.5em;
+    font-weight:600;
+    line-height:0.8;
+}
+
+.panel > h2 {
+    margin-top: 0;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.panel.large {
+    font-size: 1.2em;
+}
+
+
+
+
+body{
+    font-size: 18px;
+
+}
+.test{
+    font-size: 29px;
+}
+ul{
+    font-size: 0.8em;
+}
+
