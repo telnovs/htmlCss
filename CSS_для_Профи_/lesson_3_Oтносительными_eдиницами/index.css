@@ -3,3 +3,27 @@
     padding:1em;
     font-family: Verdana;
 }
+
+.box {
+    padding: 1em;
+    border-radius: 1em;
+    background-color:lightgray;
+}
+.box-smail{
+    font-size: 12px;
+}
+.box-large{
+    font-size:18px;
+}
+/*mm, cm, in, pt, pc, px Абсолютные единицы*/
+/*em, rem Отностительные  единицы*/
+
+body {
+    font-size: 12px;
+}
+.slogan{
+    font-size: 1.3em;
+    padding:1.3em;
+    /*padding:20.28px;*/
+    background: #cc3;
+}
