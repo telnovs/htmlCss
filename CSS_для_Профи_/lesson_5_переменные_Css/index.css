@@ -1,0 +1,11 @@
+:root{
+    --base-font:Helvetica, Arial, sans-serif;
+    --base-color:#ff6603;
+}
+.some{
+    font-family: var(--base-font);
+    color:var(--base-color);
+}
+aside{
+    --base-color:green;
+}
