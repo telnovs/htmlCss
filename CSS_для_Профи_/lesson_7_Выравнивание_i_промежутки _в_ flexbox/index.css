@@ -42,8 +42,40 @@ body{
     flex:3;
 }
 .column-sidebar{
-    flex: 0 0 260px;
+    flex:0 0 260px;
     /*flex-basis: ;*/
     /*flex-grow: ;*/
     /*flex-shrink: ;*/
+}
+.login-form h3{
+    margin:0;
+    font-size:.9em;
+    font-weight: bold;
+    text-align:right;
+    text-transform: uppercase;
+}
+.login-form input:not([type=checkbox]):not([type=radio]){
+
+display:block;
+    margin-top: 0;
+    width:100%;
+  }
+   .login-form button{
+       margin-top: 1em;
+       border:1px solid #cccc33;
+       background-color:#fff;
+       padding:.5em 1em;
+       cursor:pointer;
+   }
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.flex-row .box{
+    margin: 0.5em;
+    border: 1px solid red;
+    width: 220px;
 }
