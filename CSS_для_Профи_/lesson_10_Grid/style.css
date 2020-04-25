@@ -1,0 +1,16 @@
+body{
+	background: #ccc;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 1em;
+}
+
+.grid > *{
+	background: blue;
+	color: #fff;
+	padding: 2em;
+	border-radius: 1em;
+}

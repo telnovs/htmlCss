@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
     <title>Flexbox-верстка</title>
 </head>
@@ -9,26 +9,47 @@
 <div class="container">
     <header>
         <h1>Flexbox-верстка</h1>
+
+        <nav>
+            <ul class="site-nav">
+                <li><a href="/">Главная</a></li>
+                <li><a href="/">Услуги</a></li>
+                <li><a href="/">Цена</a></li>
+                <li class="nav-right">
+                    <a href="/about">Контакты</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-
-    <nav>
-        <ul class="site-nav">
-            <li><a href="/">Главная</a></li>
-            <li><a href="/">Услуги</a></li>
-            <li><a href="/">Цена</a></li>
-            <li class="nav-right">
-                <a href="/about">Контакты</a>
-            </li>
-        </ul>
-    </nav>
-
     <main class="flex">
-        <div class="column-main tile">
-            <h2>Принципы flexbox-верстки</h2>
-            <p>Flexbox-разметка начинается со знакомого свойства display. В результате применения свойства display: flex элемент превращается во flex-контейнер, а его
-                потомки — во flex-элементы. </p>
+        <div class="test">
+            <div class=" tile">
+                <p>
+                    Вариативные (или настраиваемые) шрифты — это, без преувеличения, новая страница в веб-типографике.
+                    Настраиваемые шрифты стали возможны благодаря совместным усилиям компаний Microsoft, Apple, Adobe и
+                    Google.
+                    Концепция была впервые представлена в сентябре 2016 года, вместе с релизом OpenType 1.8. На самом
+                    деле,
+                    работы в этом направлении велись ещё в 90-х, но только широкое использование шрифтов в вебе дало
+                    этой идее
+                    вторую жизнь и бурное развитие.
+                </p>
+            </div>
         </div>
-
+        <div class="column-main tile">
+            <div class="column-maintest">
+            <div class="column-main1">
+            <h2>Принципы flexbox-верстки</h2>
+            <p>Flexbox-разметка начинается со знакомого свойства display. В результате применения свойства display: flex
+                элемент превращается во flex-контейнер, а его
+                потомки — во flex-элементы. </p>
+            </div>
+            <div class="column-main2">
+                Слова, часто используемые в CSS-классах
+            </div>
+            <div class="column-main3"  >Loren....</div>
+        </div>
+        </div>
         <div class="column-sidebar">
             <div class="tile">
                 <form class="login-form">
@@ -56,7 +77,12 @@
                 </div>
             </div>
         </div>
+
     </main>
+    <footer class="footer">
+        &copy;2019 Все права завщищены авторством &mdash;
+        <a href="/">Условия эксплуатации</a>
+    </footer>
 
 </div>
 </body>

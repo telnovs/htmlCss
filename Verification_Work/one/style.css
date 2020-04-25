@@ -1,0 +1,96 @@
+body{
+    background:#999999;
+}
+header{
+
+    background:#13a4a4;
+}
+header h1{
+    margin: 1px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    max-width:1080px;
+    margin: 0 auto;
+}
+.site-nav{
+    display: -ms-flexbox;/* для обращение  к интернет экспловер 10 версии*/
+    display: -webkit-flex; /* Для сафари и интернет экспловера 8 версии и ниже*/
+    display:flex;
+    padding:.5em;
+    /*background:#13a4a4;*/
+    list-style-type: none;
+}
+.site-nav > li > a{
+    background:#ff6603 ;
+    color:#fff;
+    text-decoration: none;
+    /*display:block;*/
+    padding:.5em;
+    border-radius: 8px;
+}
+.site-nav > li + li{
+    margin-left: 1.3em;
+}
+.site-nav .nav-right{
+    margin-left:auto ;
+}
+.tile{
+    background:#fff;
+    padding:1em;
+}
+.flex{
+    display: flex;
+}
+.flex > * +*{ /* запись говорит что обращаемся ко всем элементам при этом игнорируем первый элемент */
+    margin-top:0px;
+    margin-left:1em;
+}
+.column-maintest{
+    display:flex;
+    flex-direction: column;
+}
+.column-main1{
+    margin: 10px;
+    padding: 5px;
+    background: tomato;
+    border-radius: 5px;
+    border: 1px solid #FFF
+}
+.column-main2{
+    margin: 10px;
+    padding: 5px;
+    background: tomato;
+    border-radius: 5px;
+    border: 1px solid #FFF
+}
+.column-main3{
+    margin: 10px;
+    padding: 5px;
+    background: tomato;
+    border-radius: 5px;
+    border: 1px solid #FFF
+}
+.column-main{
+    flex: 3;
+}
+.column-sidebar{
+    flex: 0 0 150px;
+    /*flex: 0 0 260px;*/
+    /*flex-basis: ;*/
+    /*flex-grow: ;*/
+    /*flex-shrink: ;*/
+}
+.test {
+    flex:0 0 300px;
+}
+.footer {
+    display: flex;
+    text-align:center;
+    background-color:#660034;
+    margin: 5px 0 0 0 ;
+    border: 1px solid black;
+    min-height: 50px;
+
+}
