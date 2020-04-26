@@ -3,14 +3,18 @@ body{
 }
 .grid{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	grid-gap: 1em;
+	/*grid-template-columns:repeat(2, 2fr 3fr 1fr);*/
+	grid-template-columns:repeat(8, 1fr); /* 3 раза поторяется столбцы *!*/
+	grid-template-rows:repeat(8, auto); /* 4 строки со стандартным рамерам */
+	/*grid-template-columns: 1fr 1fr 1fr;!* количество  столбцов *!*/
+	/*grid-template-rows: 1fr 1fr;  !* количество строк*!*/
+	grid-gap: 1em; /* ОСТУПЫ между строками и столбцами */
 }
 
 .grid > *{
-	background: blue;
-	color: #fff;
+	background:white;
+	color: #000000;
 	padding: 2em;
 	border-radius: 1em;
+	border: 1px solid #000;
 }
