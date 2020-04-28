@@ -1,0 +1,48 @@
+body{
+    background:#709709;
+    font-family: Helvetica, Arial, sans-serif;
+}
+header{
+    position:fixed;
+    top:.5em;
+    bottom:30em;
+    right:5%;
+    left: 5%;
+    padding: 1.20em 0;
+    background:#ffdd98;
+}
+.test{
+    position: absolute;
+    top:70%;
+    right:5%;
+    padding: .4em .3em;
+    border: 1px solid #8d8d8d;
+    background:#fff;
+    font-size:1.1em;
+    cursor: pointer;
+    font-family: Helvetica, Arial, sans-serif;
+}
+nav{
+    width:75%;
+    max-width:1080px;
+    margin: 0 auto;
+}
+.modal{
+    display:none;
+}
+.modal-body{
+    position:fixed;:
+    top:4em;
+    bottom: 5em;
+    right:20%;
+    left: 20%;
+    padding: 3em;
+    background:#fff;
+    overflow:auto;
+}
+.modal-close{
+    position: absolute;
+    cursor: pointer;
+    top:1em;
+    right:20px;
+}
