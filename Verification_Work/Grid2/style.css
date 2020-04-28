@@ -1,0 +1,34 @@
+body{
+    background: #709709;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.pictures{
+    width:1024px;
+    margin: 0 auto;
+    display: grid;
+    /*grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:repeat(auto-fill, minmax(50px , 1fr)); /* repeat auto-fill авто заполнение чего либо*/
+    grid-gap: .1em;
+    grid-auto-flow: dense;
+}
+.pictures figure{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.pictures img{
+    flex: 2;
+    object-fit: cover;
+    max-width: 100%;
+}
+.pictures figcaption{
+    padding: 0.4em 1em;
+    background: #bbb;
+    color: #fff;
+    text-align: right;
+}
+.pictures .biger{
+    grid-row: span 2;
+    grid-column: span 2;
+}
