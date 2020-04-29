@@ -43,6 +43,11 @@ nav{
 .modal-close{
     position: absolute;
     cursor: pointer;
-    top:1em;
-    right:20px;
+    top:85%;
+    left:90%;
+}
+.test2{
+    position: absolute;
+    left:80%;
+    top:85%;
 }
