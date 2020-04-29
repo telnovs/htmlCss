@@ -1,0 +1,106 @@
+:root {
+    box-sizing: border-box;
+    font-size: calc(1vw + .6em);
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/**********************************
+************ ссылки***************
+**********************************/
+ a:link{
+    color:#1476bb;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:visited{
+    color: #1401af;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color:#660034;
+}
+/**********************************
+************ шапка ***************
+**********************************/
+header{
+    padding: 0.5em 1em;
+    background:#fff;
+}
+.title > h1{
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin: .25em 0;
+}
+.slogan {
+    color: #888;
+    font-size:.8em;
+    margin: 0;
+}
+/**********************************
+************ aside ***************
+**********************************/
+.hero{
+    padding:2em 1.5em ;
+    text-align: center;
+    background:url(../img/coffee-beans.jpg) ;
+    color:white ;
+    background-size: 100%;
+    text-shadow: .2em .2em .2em #1a1a1a;
+}
+/**********************************
+************ main *****************
+**********************************/
+main{
+    padding: 1.2em;
+}
+.subtitle{
+    margin: 1.2em  0;
+    /*margin-top: 1.2em;*/
+    /*margin-bottom: 1.2em;*/
+    font-size: .9em;
+    text-transform: uppercase;
+}
+/**********************************
+************ menu *****************
+**********************************/
+.menu{
+    position: relative;
+}
+.menu-toggle{
+    position: absolute;
+    top: -1.6em;
+    right: 0.5em;
+    border: 0;
+    background-color:transparent;
+    font-size: 3em;
+    width: 1em;
+    height: 1em;
+    line-height:0.3em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 5em;
+}
+.menu-toggle::after{
+    position: absolute;
+    top: .2em;
+    left: .1em;
+    display: block;
+    content: "\2261";
+    text-indent: 0;
+}
+.menu-dropdown{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+.menu.is-open .menu-dropdown{
+    display: block;
+}
