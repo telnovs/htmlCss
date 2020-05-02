@@ -1,0 +1,220 @@
+body {
+    width: 1080px;
+    font-family: 'Lato', Verdana;
+    font-size: 100%;
+    background: #fff;
+    margin:0 3em ;
+    text-align: center;
+}
+/**********************************
+*********** Шапка *************
+*********************************/
+.wrap {
+    margin: 0 auto;
+    width:1080px;  /* отступы относительно окна браузера */
+}
+.header{
+    height:98px;
+    display: block;
+    /*border: 1px solid #000;*/
+    padding: .3em 0; /* поля вокруг текста */
+}
+.logo{
+    float: left; /* обтекание логотипа */
+}
+.logo a {
+    display: block; /* переопределение в блочный  */
+}
+.logo a  >  img {
+    width: 150px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    float: right;   /* обтекание логотипа */
+    margin-top: 0.2em;
+}
+.nav > ul > li {
+    display:inline-block;  /* переопределение в строчно-блочный  */
+}
+.nav > ul > li.active a{
+    background: #d0a5a5;
+    color: #ffffff;
+}
+.nav > ul > li > a {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    color: #444;
+    -webkit-transition: 0.9s; /* плавный переход  */
+    -moz-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+}
+.nav > ul > li > a:hover {
+    color: #fff;
+    background: #d0a5a5;
+}
+/**********************************
+*********** Кратинка *************
+*********************************/
+
+.mops_bg{
+    display: block;
+    background:  url(./img/colibri.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.mops_text {
+    padding: 20% 0%;
+}
+.mops_text h2 {
+    color: #fff;
+    font-size: 2.9em;
+    font-weight: 600;
+    z-index: 10;
+    text-align: center;
+    position: relative; /* относительное позиционирование заголовка */
+    margin-top: -140px;
+}
+.mops_text h2 span {
+    font-size: 1.1em;
+    font-weight:300;
+}
+.mops_text p {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1.4em auto;
+    width: 76%;
+    font-weight: 200;
+    line-height: 1.3em;
+}
+.mops_text .da-butt {
+    display: block;
+    background-color: #a97b7b;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 10%;
+    text-align: center;
+    padding: 1em 2em;
+}
+.da-butt {
+    position: absolute; /* абсолютное позиционирование кнопки */
+    left: 850px; top: 420px;  /* отступы от краев браузера */
+}
+.mops_text .da-butt:hover
+{
+    background:#d0a5a5;
+}
+.butt-img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 2em auto 1em;
+    background:#dd4444;
+    border-radius: 8px;
+    -webkit-transition: all 0.5s ease-in-out; /* плавный переход */
+    -moz-transition: all 0.5s ease-in-out; /* плавный переход */
+    -o-transition: all 0.5s ease-in-out; /* плавный переход */
+    -ms-transition: all 0.5s ease-in-out; /* плавный переход */
+    transition: all 0.5s ease-in-out; /* плавный переход */
+    position: relative; /* абсолютное позиционирование стрелки */
+    left: 325px; top: 125px;  /* отступы от родителя */
+}
+.butt-img:hover{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #13a4a4;
+}
+/*******************************************
+*********** Основной кантенер  *************
+*******************************************/
+aside{
+    display:grid;
+    width: 1080px;
+}
+.container-well {
+    position: relative;
+    -webkit-transition: all 1s ease; /*плавный переход между экшенами Chrome/Safari */
+    -moz-transition: all 1s ease;/*переход между экшенами Firefox */
+    -o-transition: all 1s ease; /*медленный переход между экшенами Opera */
+    transition: all 1s ease;
+}
+.container-well h2{   color:#4d4d4d; /*цвет заголовка */
+    font-size: 2em; /*размер заголовка */
+    padding-bottom: 0.5em; /*поля под заголовком */
+    text-align: center; /*выравнивание заголовка по центру */
+}
+.container-well p{   color:#444444; /*цвет текста */
+    font-size: 1em; /*размер шрифта */
+    padding-bottom: 1em; /*поле под абзацем */
+    text-align: center; /*выравнивание текста по центру */
+}
+#valantin {
+    width: 65%; /* ширина контейнера для всего блока меню */
+    list-style: none; /* немаркированные списки  */
+    margin: 2% auto;
+    padding: 0;
+}
+#valantin li {
+    float:left;
+    margin-left: 17px;
+}
+#valantin li span {
+    background:#d0a5a5;
+    padding: 15px 30px; /* поля обрамляющие текст */
+    text-decoration: none; /* нет подчеркивания у названий меню */
+    color: #fff; /*цвет текста меню */
+    text-transform:uppercase; /*трансформация букв текста в заглавные  */
+    font-weight: 600; /*жирность текста */
+    cursor: pointer; /*вид курсора */
+}
+#valantin li span:hover
+{
+    background:#a97b7b; /*фон при наведении меняет цвет */
+}
+#valantin li span.active {
+    background:#a97b7b; /*цвет активного фона */
+}
+/**** Иконки ****/
+.ikonci{
+    display: grid;
+}
+.portfoliolist .portfolio {
+    -webkit-box-sizing: border-box; /* контейнер для галереи с иконками */
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width: 19%;
+    margin: 0% 3%;
+    /*display: none;*/
+    float: left;
+}
+.portfolio-wrapper {
+    overflow:hidden;
+    position: relative;
+    cursor:pointer;
+}
+.portfolio img {
+    max-width:100%;
+    position: relative; /* позиционирование картинки с лупой */
+    /*opacity: 5;*/
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+}
+ch-info {
+    opacity: 0; /* Полная прозрачность элемента */
+
+ }
+
+footer{
+    display: grid;
+    width: 1080px;
+    height: 400px;
+}
