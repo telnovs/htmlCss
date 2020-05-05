@@ -6,7 +6,7 @@ body{
 ************ header ***************
 **********************************/
 header{
-    background-size:cover;
+    /*background-size:cover;*/
     height: 967px;
 	background-image: url(../img/back-header.jpg);
 	background-repeat: no-repeat;
@@ -42,7 +42,7 @@ header nav ul li a:hover{
 	}
 header div.call-to h1{
 	margin-top: 250px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	text-align: center;
 	color: #fff;
 	font-size: 72px;
@@ -78,10 +78,11 @@ header div.call-to a{
 div.back-services{
 	background-image: url(../img/back-services.jpg);
 	background-repeat: no-repeat;
-	background-position: center center
+	background-position: center center;
+	/*padding: 140px;*/
 }
 
-selection .our-services h2{
+section.our-services h2{
 	color:#242424;
 	font-size: 48px;
 	text-align: center;
@@ -89,7 +90,7 @@ selection .our-services h2{
 	border-bottom: solid 1px #e7e7e7;
 	padding-bottom: 80px;
 }
-selection .our-services div.services div{
+section.our-services div.services div{
 	padding-top:80px;
 
 }
@@ -99,17 +100,17 @@ div.services div img{
 }
 div.services div h3{
 	color: #242424;
-	font-size: 24px;
+	font-size:24px;
 	margin-bottom: 34px;
 }
-div.services div p, div.services-2 p{
+div.services div p, .services-2 div p{
 	color: #878787;
-	font-size: 16px;
-	line-height: 24px;
+	font-size:16px;
+	line-height:24px;
 	max-width: 520px;
 }
-section.our-services a.buttom {
-	display: block;
+section.our-services a.buttom{
+	display:block;
 	text-align: center;
 	text-decoration: none;
 	background: #2ebaee;
@@ -118,24 +119,23 @@ section.our-services a.buttom {
 	border-radius: 24px;
 	font-size: 16px;
 	color: #fff;
-	line-height: 44px;
-	margin: 65px auto;
+	line-height:44px;
+	margin:65px auto ;
 }
 section.our-services a.buttom:hover, div.services-2 a:hover{
-	color: #2ebaee;
 	background: #fff;
-	border:1px solid #2ebaee;
+	color: #2ebaee;
+	border: 1px solid #2ebaee ;
 }
-div.services-2{
+.services-2{
 	margin-top: 180px;
 }
-div.services-2 h3, div.services-3 h3{
+.services-2 h3{
 	color: #242424;
-	font-size: 35px;
-	margin-top: 100px;
+	font-size:36px;
 }
-div.services-2 a{
-	display: block;
+.services-2 a{
+	display:block;
 	text-align: center;
 	text-decoration: none;
 	background: #2ebaee;
@@ -144,24 +144,26 @@ div.services-2 a{
 	border-radius: 24px;
 	font-size: 16px;
 	color: #fff;
-	line-height: 44px;
-	margin-top: 50px;
+	line-height:44px;
+	margin-top:50px;
 }
-div.services-3{
-	margin-top: 240px;
+.services-3 {
+	margin-top:240px;
 }
-div.services-3 div.serv-2{
+.services-3 div.serv-2{
 	padding-left: 100px;
 }
-div.services-3 h3{
+.services-3 h3{
 	color: #fff;
 	font-size: 36px;
 }
-div.services-3 p{
+.services-3 p{
 	color: #fff;
 	font-size: 16px;
+	line-height:24px;
+	max-width: 520px;
 }
-div.services-3 div.serv-2 a{
+.services-3 div.serv-2 a{
 	display: block;
 	text-align: center;
 	text-decoration: none;
@@ -174,7 +176,7 @@ div.services-3 div.serv-2 a{
 	line-height: 44px;
 	margin-top: 50px;
 }
-div.services-3 div.serv-2 a:hover{
+.services-3 div.serv-2 a:hover{
 	display: block;
 	text-align: center;
 	text-decoration: none;
@@ -187,4 +189,94 @@ div.services-3 div.serv-2 a:hover{
 	line-height: 44px;
 	margin-top: 50px;
 	border: 1px solid #fff;
+}
+/*******************************
+************* section boy ******
+********************************/
+section.boy {
+	height: 636px;
+}
+section.boy div img {
+	max-width: 100%;
+}
+section.boy div h3{
+	font-size: 72px;
+	color: #000;
+	max-width:600px;
+	margin-left: 75px;
+}
+section.boy div p{
+	color: #878787;
+	font-size:16px;
+	max-width: 600px;
+	margin-left: 75px;
+}
+section.boy div a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	background:#2ebaee ;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px;
+	color:  #fff;
+	line-height: 44px;
+	margin-top: 50px;
+	margin-left: 75px;
+}
+section.boy div a:hover{
+	color: #2ebaee;
+	background: #fff;
+	border: 1px solid #2ebaee;
+}
+/*******************************
+******** section next boy ******
+********************************/
+section.next-boy{
+	min-height: 430px;
+}
+section.next-boy div.block-1{
+	background-image: url("../img/ico-07.png");
+	min-height:430px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+section.next-boy div.block-2{
+	background-image: url("../img/ico-08.png");
+	min-height:430px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+section.next-boy div.block-3{
+	background-image: url("../img/ico-09.png");
+	min-height:430px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+section.next-boy div.block-4{
+	background-image: url("../img/ico-10.png");
+	min-height:430px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+section.next-boy h4{
+	color: #fff;
+	font-size: 48px;
+	font-weight: bold;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	margin: 0;
+	padding: 140px 65px 0 65px;
+}
+section.next-boy h4:hover{
+	color: #fff;
+	font-size: 48px;
+	font-weight: bold;
+	height: 100%;
+	width: 100%;
+	background: rgba(57, 157, 195, 0.7);
+	margin: 0;
+	padding: 140px 65px 0 65px;
 }
