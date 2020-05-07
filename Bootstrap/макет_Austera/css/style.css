@@ -1,6 +1,9 @@
 body{
 	font-family: 'Montserrat', sans-serif;
-	margin: 0 -15px;
+	margin: 0px;
+}
+.container-fluid{
+    padding: 0px;
 }
 /**********************************
 ************ header ***************
@@ -235,6 +238,7 @@ section.boy div a:hover{
 ********************************/
 section.next-boy{
 	min-height: 430px;
+
 }
 section.next-boy div.block-1{
 	background-image: url("../img/ico-07.png");
@@ -464,4 +468,289 @@ footer ul li a{
 }
 footer ul li a:hover{
     text-decoration: underline;
+}
+/**************************************
+************Адаптивность****************
+***************************************/
+@media (max-width: 575.98px) { }
+
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	body{
+		margin: 0 -15px;
+	}
+	header{
+		height: 560px;
+	}
+	header div.call-to h1{
+		margin-top: 60px;
+		font-size: 48px;
+	}
+	header div.call-to p {
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		margin: 30px 0;
+	}
+	div.services div h3{
+		text-align: center;
+	}
+	div.services div img{
+		display: block;
+		margin: 0 auto;
+		width: 80px;
+	}
+	div.services-2 h3, div.services-3 h3{
+		margin: 0;
+	}
+	div.services div p, div.services-2 p{
+		padding: 0 10px;
+	}
+	div.services-3{
+		margin-top: 40px;
+	}
+	div.services-2 a {
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		background: #fff;
+		height: 45px;
+		width: 150px;
+		border-radius: 24px;
+		font-size: 16px;
+		color: #2ebaee;
+		line-height: 44px;
+		margin-top: 50px;
+	}
+	div.services-2 a:hover{
+		background: #2ebaee;
+		color: #fff;
+		border: 1px solid #fff;
+	}
+	div.services-3 div.serv-2{
+		padding-left: 20px;
+	}
+	div.back-services{
+		padding-bottom: 40px;
+	}
+	section.boy div h3{
+		margin: 10px auto;
+		font-size: 28px;
+		text-align: center;
+		width: 90%
+	}
+	section.boy {
+		height: 400px;
+	}
+	section.next-boy h4 {
+		color: #fff;
+		font-size: 36px;
+		font-weight: bold;
+		height: 100%;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.7);
+		margin: 0;
+		padding: 120px 65px 0 65px;
+		text-align: center;
+	}
+	section.next-boy h4:hover{
+		color: #fff;
+		font-size: 36px;
+		font-weight: bold;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 120px 65px 0 65px;
+		text-align: center;
+	}
+	section.check-our h2 {
+		font-size: 48px;
+		text-align: center;
+	}
+	section.check-our img {
+		display: block;
+		margin: 0 auto;
+		width: 200px;
+		height: 200px;
+		margin-top: 32px;
+	}
+	section.check-our {
+		height: 1050px;
+	}
+	section.footer div.contact {
+		color: #fff;
+		font-size: 48px;
+		font-weight: bold;
+		margin-top: 35px;
+		text-align: center;
+	}
+	section.footer p {
+		color: #878787;
+		font-size: 24px;
+		margin: 14px auto;
+		text-align: center;
+	}
+	section.footer p.adress {
+		font-size: 16px;
+		color: #878787;
+		margin-top: 20px;
+		text-align: center;
+	}
+	section.footer ul {
+		list-style-type: none;
+		padding: 20px;
+		margin: 0 0 0 17%;
+	}
+	section.footer ul li {
+		display: inline-block;
+		width: 55px;
+		height: 55px;
+		border-radius: 27px;
+	}
+	section.footer{
+		background-position: top center;
+		background-repeat: no-repeat;
+		height: 724px;
+	}
+	section.footer input[type="text"]{
+		margin-top: 10px;
+	}
+	section.footer textarea {
+		width: 635px;
+		height: 120px;
+		background: none;
+		border-radius: 6px;
+		border: 1px solid #535353;
+		color: #fff;
+		font-size: 17px;
+		display: block;
+		padding: 30px;
+		margin: 20px auto;
+		resize: none;
+	}
+	footer ul li {
+		display: inline-block;
+		margin-right: 12px;
+	}
+	footer p, footer ul {
+		list-style-type: none;
+		margin-top: 56px;
+		padding: 0 10px;
+		color: #fff;
+		text-align: right;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	header div.call-to h1{
+		width: 90%;
+		margin:0 auto;
+		text-align: center;
+	}
+	div.services-2{
+		margin-bottom: 120px;
+	}
+	header nav ul li{
+		margin-right: 18px;
+	}
+	div.services div p{
+		padding-right: 10px;
+		text-align: center;
+	}
+	div.services div h3{
+		padding-right: 10px;
+		text-align: center;
+	}
+	div.services div img{
+		display: block;
+		margin: 0 auto;
+		width: 80px;
+	}
+	div.services-2 h3, div.services-3 h3{
+		margin: 0;
+	}
+	section.boy div h3{
+		margin: 0;
+		font-size: 36px;
+		text-align: center;
+	}
+	div.services-3{
+		margin-top: 20px;
+	}
+	section.boy{
+		height: auto;
+	}
+	div.services-2 a{
+		border:1px solid #fff;
+	}
+	section.next-boy h4{
+		font-size: 32px;
+	}
+	section.next-boy h4:hover{
+		font-size: 32px;
+	}
+	section.check-our h2{
+		text-align: center;
+		font-size: 48px;
+	}
+	section.check-our img {
+		display: block;
+		margin: 0 auto;
+		width: 200px;
+		height: 200px;
+		margin-top: 32px;
+	}
+	section.check-our div.name{
+		font-size: 24px;
+	}
+	section.check-our{
+		height: auto;
+	}
+	section.footer{
+		height: auto;
+	}
+	section.footer div.contact{
+		font-size: 36px;
+	}
+	section.footer p.adress{
+		font-size: 14px;
+	}
+	section.footer p{
+		font-size: 24px;
+	}
+	section.footer ul li{
+		margin-right: 10px;
+	}
+	section.footer input[type="text"], section.footer input[type="email"], section.footer textarea{
+		width: 400px;
+	}
+	footer p{
+		text-align: right;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1409.98px){
+	header div.call-to h1{
+		width: 90%;
+		margin: 250px auto;
+	}
+	div.services div p{
+		padding-right: 10px;
+	}
+	section.next-boy h4{
+		font-size: 36px;
+	}
+	section.next-boy h4:hover{
+		font-size: 36px;
+	}
+	section.check-our h2{
+		text-align: center;
+	}
+	section.footer input[type="text"], section.footer input[type="email"], section.footer textarea{
+		width: 400px;
+	}
+	footer p{
+		text-align: right;
+	}
 }
