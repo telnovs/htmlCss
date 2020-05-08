@@ -2,6 +2,12 @@
 font-family: 'Ubuntu', sans-serif;
 font-family: 'Playfair Display', serif;
 */
+.img-adaptive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 body{
     font-family: 'Playfair Display', serif;
 }
